@@ -1,0 +1,91 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+p{
+    margin-bottom: 10px;
+    color: #666;
+}
+
+button{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+p + label{
+    margin-top: 10px;
+}
+
+label:has(input[type="radio"]),
+label:has(input[type="checkbox"]){
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+textarea{
+    resize: vertical;
+}
